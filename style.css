@@ -1,0 +1,275 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-feature-settings: "palt";
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #F2EDE9;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.both {
+    justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+}
+.h-flex {
+    display: flex;
+    flex-direction: column;
+}
+.h-both {
+    justify-content: space-between;
+}
+
+
+.home header {
+    background-image: url(images/tea.jpg);
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    padding: 50px;
+}
+
+.home header p {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.home header div:last-of-type {
+    text-align: right;
+}
+
+.home main, .single main {
+    padding: 50px 90px 40px 90px;
+}
+
+.home main h3 {
+    font-size: 40px;
+    color: #707070;
+    padding-bottom: 45px;
+}
+
+.home main section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.home main section h5:first-of-type {
+    font-size: 14px;
+    color: #707070;
+    background-color: #F0EFE7;
+    width: fit-content;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+.home main section h5:last-of-type {
+    font-size: 14px;
+}
+
+.home main section h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.single header{
+    padding: 50px;
+}
+.single main {
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+.single main h5:first-of-type {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 10px 32px;
+}
+
+.single main h5:last-of-type {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.single .cat {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.single main section {
+    margin-bottom: 30px;
+}
+
+.single main h4 {
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: .03em;
+    padding-bottom: 15px;
+}
+
+.single main figure img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.single main p {
+    font-size: 14px;
+    line-height: 175%;
+}
+
+.single aside h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.single aside h4 {
+    font-size: 16px;
+}
+
+.single aside section>div {
+    border-bottom: solid 1px gray;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+footer {
+    background-color: #4F3729;
+    color: white;
+    padding: 35px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.paging {
+    padding-top: 100px;
+}
+
+
+/* ↓はスマートフォンサイズのみに適用CSS */
+
+@media screen and (max-width:767px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .paging.flex {
+        flex-direction: row;
+        margin-bottom: 100px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid gray;
+    }
+
+    .home header div:nth-last-of-type(2) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home header div:last-of-type {
+        text-align: center;
+    }
+}
+
+/* ↓はタブレットサイズ以上に適用CSS */
+
+@media screen and (min-width:768px) {
+    .single main {
+        display: flex;
+        justify-content: space-between;
+        /*要素の種類をflex*/
+        /*flexの横方向の揃えを両端揃え*/
+    }
+
+    .single main>section {
+        width: calc(100% * 2 / 3);
+        padding-right: 30px;
+        /*幅をcalc(100% * 2 / 3)*/
+        /*要素の内側の右の余白を30px*/
+    }
+
+    .single main>aside {
+        width: calc(100% * 1 / 3);
+        padding-left: 30px;
+        /*幅をcalc(100% * 1 / 3)*/
+        /*要素の内側の左の余白を30px*/
+    }
+}
+
+
+/*お店のサービス情報*/
+.card_container{
+    padding-top: 50px;
+}
+#Card{
+    
+    display: flex;
+    background-color: #F2EDE9;
+    padding: 20px 0 40px 0;
+    color: #707070;
+    
+}
+.card{
+    width: 33.3rem;
+    
+}
+.card img{
+    width:100%; 
+    height:200px;
+    object-fit: cover;
+}
+.card-body{
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px;
+    justify-content: space-between;
+}
+.card-title{
+    font-size: 14px;
+    margin: auto 5px;
+}
+.card-text{
+    font-size: 12px;
+}
+.next img{
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (min-width: 767px){
+    .card:first-child{
+        padding-right: 20px;
+    }
+    .card:last-child{
+        padding-left: 20px;
+    }
+}
+/*カードスマホサイズ*/
+@media screen and (max-width: 767px){
+    #Card{
+        display: block;
+    }
+    .card{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}

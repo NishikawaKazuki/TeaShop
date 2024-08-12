@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.008" height="62.009" viewBox="0 0 62.008 62.009">
+  <g id="arrow-up-dashed-square--arrow-keyboard-button-up-square-dashes" transform="translate(61.008 1) rotate(90)">
+    <path id="Vector" d="M10.031.606a13.646,13.646,0,0,0-9.4,9.08" transform="translate(0.479 0.377)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector_2" d="M11.295.606a13.646,13.646,0,0,1,9.4,9.08" transform="translate(38.204 0.377)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector_3" d="M6,.5h9.078m0,59.008H6" transform="translate(19.465)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector_4" d="M.5,15.078V6" transform="translate(0 19.465)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector_5" d="M13.5,15.078V6" transform="translate(46.009 19.465)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector_6" d="M10.031,20.473a13.645,13.645,0,0,1-9.4-9.079" transform="translate(0.479 38.552)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector_7" d="M11.295,20.473a13.645,13.645,0,0,0,9.4-9.079" transform="translate(38.204 38.552)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector_8" d="M7,31.234V4" transform="translate(23.004 12.387)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Vector_9" d="M5,13.078,14.078,4l9.078,9.078" transform="translate(15.926 12.387)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>
